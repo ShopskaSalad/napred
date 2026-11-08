@@ -109,6 +109,86 @@
         { label: "RESPONSE TUNING", val: "Microsecond Attack Transient Alignment" },
       ],
     },
+    "kaelen-voss": {
+      specBadge: "DOSSIER // SPEC-05.KV",
+      monogram: "05.KV",
+      role: "LEAD MECHANICS DESIGNER",
+      name: "Kaelen Voss",
+      callsign: "DISCIPLINE: MICRO-DYNAMICS",
+      experience: "9+ YRS GAME FEEL",
+      archiveId: "SPEC-NPR-05",
+      hash: "2D6-KV-05",
+      philosophy:
+        "“Inputs should disappear beneath intent. The player must feel mass, timing, and consequence before they can name the system.”",
+      bio:
+        "Architects kinetic weight, controller response thresholds, animation cancel windows, and input buffering rules. Tunes tactile response curves across combat, traversal, and interaction loops so every action has measurable physical consequence.",
+      specs: [
+        { label: "INPUT RESPONSE", val: "Sub-Frame Buffer Calibration" },
+        { label: "MOTION FEEL", val: "Kinetic Weight & Inertia Curves" },
+        { label: "PLAYER LOOP", val: "High-Fidelity Action Cadence" },
+        { label: "TEST METHOD", val: "Frame-Step Capture Review" },
+      ],
+    },
+    "samira-patel": {
+      specBadge: "DOSSIER // SPEC-06.SP",
+      monogram: "06.SP",
+      role: "PRINCIPAL AI & SIMULATION",
+      name: "Samira Patel",
+      callsign: "DISCIPLINE: HEURISTIC AI",
+      experience: "13+ YRS AGENT SYSTEMS",
+      archiveId: "SPEC-NPR-06",
+      hash: "6B8-SP-06",
+      philosophy:
+        "“The best opponent is readable without being predictable. Intelligence is not chaos; it is structured adaptation.”",
+      bio:
+        "Engineers goal-oriented autonomous agents, hierarchical utility theory algorithms, and state machine transitions for emergent encounters. Designs behavior systems that expose intent while retaining tactical depth.",
+      specs: [
+        { label: "BEHAVIOR MODEL", val: "Hierarchical Utility AI" },
+        { label: "SIMULATION LAYER", val: "Goal-Oriented Action Planning" },
+        { label: "READABILITY", val: "Intent Signaling Windows" },
+        { label: "ENCOUNTER FOCUS", val: "Adaptive Group Tactics" },
+      ],
+    },
+    "jonas-lindqvist": {
+      specBadge: "DOSSIER // SPEC-07.JL",
+      monogram: "07.JL",
+      role: "LEAD TECHNICAL ARTIST",
+      name: "Jonas Lindqvist",
+      callsign: "DISCIPLINE: HLSL / COMPUTE",
+      experience: "10+ YRS PROCEDURAL ART",
+      archiveId: "SPEC-NPR-07",
+      hash: "3A7-JL-07",
+      philosophy:
+        "“A surface should reveal how it was made, how it moves, and what it has survived.”",
+      bio:
+        "Builds bespoke surface deformation shaders, procedural geometry tools, and high-frequency tactile physics rendering pipelines. Bridges visual direction with runtime performance and material response systems.",
+      specs: [
+        { label: "SHADER STACK", val: "Compute-Driven Material Response" },
+        { label: "GEOMETRY TOOLS", val: "Procedural Industrial Assembly" },
+        { label: "SURFACE LOGIC", val: "Wear, Stress & Impact Layers" },
+        { label: "RENDER BUDGET", val: "GPU Micro-Profiled Passes" },
+      ],
+    },
+    "renzo-takahashi": {
+      specBadge: "DOSSIER // SPEC-08.RT",
+      monogram: "08.RT",
+      role: "NARRATIVE ARCHITECTURE",
+      name: "Renzo Takahashi",
+      callsign: "DISCIPLINE: SYSTEMATIC LORE",
+      experience: "8+ YRS WORLD SYSTEMS",
+      archiveId: "SPEC-NPR-08",
+      hash: "5C9-RT-08",
+      philosophy:
+        "“Lore should be load-bearing. The world must explain itself through tools, ruins, routines, and scars.”",
+      bio:
+        "Crafts diegetic industrial lore, physical environmental artifacts, and narrative layers integrated with player progress. Focuses on story systems that can be explored, inferred, and mechanically rewarded.",
+      specs: [
+        { label: "WORLD METHOD", val: "Diegetic Artifact Networks" },
+        { label: "PROGRESSION LORE", val: "System-Gated Discovery" },
+        { label: "TEXTURE LAYER", val: "Industrial Cultural Memory" },
+        { label: "PLAYER REWARD", val: "Inference-Based Unlocks" },
+      ],
+    },
   };
 
   const modal = document.getElementById("dossier-modal");
