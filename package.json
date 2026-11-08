@@ -1,0 +1,10 @@
+{
+  "name": "napred-games",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone Napred Games landing page.",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1"
+  }
+}
