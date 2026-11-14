@@ -33,6 +33,7 @@ jobs:
         run: |
           mkdir -p dist
           cp index.html styles.css script.js dist/
+          cp CNAME dist/CNAME
           cp -R assets dist/assets
           touch dist/.nojekyll
 
